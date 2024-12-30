@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: jpool.dev
 
 
 module:
@@ -13,3 +13,10 @@ module:
     target: static/files
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
+
+
+params:
+  footer:
+    enable: true
+    newsletter:
+      enable: false
