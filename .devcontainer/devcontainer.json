@@ -1,3 +1,9 @@
 {
-  "image": "hugomods/hugo:exts"
+  "image": "hugomods/hugo:exts",
+
+  "postCreateCommand": "hugo mod get -u && hugo mod tidy && hugo mod npm pack && npm install",
+
+  "postStartCommand": "hugo server -w",
+
+  "forwardPorts": [1313]
 }
