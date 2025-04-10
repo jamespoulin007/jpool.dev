@@ -1,6 +1,6 @@
 section:
-  name: Experiences # Titre de la section (par défaut: "" )
-  id: experiences # url id/slug of section *Required*
+  name: Experience # Titre de la section (par défaut: "" )
+  id: experience # url id/slug of section *Required*
   enable: true
   weight: 2
   showOnNavbar: true
@@ -8,7 +8,7 @@ section:
   # hideTitle: true 
 
 # Your experiences
-experiences:
+experience:
 - company:
     name: Kinaxis
     url: "https://www.kinaxis.com"
@@ -24,17 +24,25 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+      - Supervise 4 team members, providing performance feedback and managing day-to-day tactical and long-term strategic activities
+      - Participate in the new candidate hiring process for our team, interviewing candidates for various roles and levels
+      - Serve as the subject matter expert for the JFrog platform deployment for our team
+      - indent:
+        - Deploy JFrog platform and edge node instances on Kubernetes (K8s)
+        - Develop Terraform (TF) modules to manage the configuration of the platform
 
   - designation: Staff Cloud Software Engineer
     start: Dec 2022
     end: Sept 2024
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+      - Serve as the subject matter expert for all Infrastructure as Code (IaC) using Terraform in our public cloud landing zones for both Azure and GCP
+      - indent:
+        - Leverage landing zone IaC to deploy cloud infrastructure across over 20 regions globally
+        - Completed extensive refactoring to improve reusability and accelerate the deployment of new regions
+      - Provide subject matter expertise for a global cloud mail relay solution processing over 4 million emails monthly
+      - Completed a Proof of Concept (POC) of Cloud Custodian to enhance tagging enforcement of public cloud resources
+      - Develop a configuration templating and generation CLI tool using Python and Typer to streamline input into IaC code
+      - Deploy cost management automation in Azure that shuts down all VMs outside of business hours, resulting in cost savings of over $25,000 per month
 
 - company:
     name: Alessa
@@ -49,22 +57,22 @@ experiences:
     start: Feb 2020
     end: Dec 2022
     responsibilities:
-    - Managed a team of 4 CloudOps engineers
-    - Implimented agile / scrum for CloudOps team
-    - Doubled deployment velocity from 5/mnth to 10/mnth from 2021 to 2022
-    - Designed hub & spoke cloud network architecture with 5 global hub regions and VPN connectivity
-    - Designed and maintain various deployment automation pipelines to deploy new customers into the cloud using ARM Templates and Azure CLI scripts
-    - Implimented automated process to deploy TLS certificates for end to end TLS encryption across all Azure deployments
-    - Implimented Ansible for configuration management of over 250 VMs
-    - Responsible for infrastructure support, maintenance, and deployment of over 3000 Azure resources
-    - Architected and designed Azure Kubernetes deployment to migrate monolithic services to new cloud native architecture
-    - Managed and report on cloud finance / Azure spend
-    - Managed and maintain Azure DevOps for all engineering teams
-    - Managed Azure AD tenant and RBAC for all Azure resources
-    - Completed migration of all users from premise based Microsoft Domain Controllers to Azure AD
-    - Implimented Azure AD Domain Services deployment
-    - Implimented infrastructure monitoring and synthetic testing in Datadog
-    - Completed a cloud migration of 15 customers hosted in a premise based datacenter to Microsoft Azure
+      - Managed a team of 4 CloudOps engineers
+      - Implemented Agile/Scrum methodologies for the CloudOps team
+      - Doubled deployment velocity from 5 to 10 deployments per month between 2021 and 2022
+      - Designed a hub & spoke cloud network architecture with 5 global hub regions and VPN connectivity
+      - Designed and maintained various deployment automation pipelines utilizing ARM Templates and Azure CLI scripts to onboard new customers to the cloud
+      - Automated TLS certificate deployment across all Azure environments, enhancing end-to-end encryption for improved security and minimizing outage risks associated with manual certificate management
+      - Implemented Ansible for configuration management of over 250 virtual machines (VMs)
+      - Responsible for infrastructure support, maintenance, and deployment of over 3000 Azure resources
+      - Architected and designed an Azure Kubernetes Service (AKS) deployment to migrate monolithic services to a new cloud-native architecture
+      - Managed and reported on cloud finance / Azure spend
+      - Managed and maintained the Azure DevOps for all engineering teams
+      - Managed the Azure AD tenant and Role-Based Access Control (RBAC) for all Azure resources
+      - Completed the migration of all users from on-premises Microsoft Domain Controllers to Azure AD
+      - Implemented an Azure AD Domain Services deployment
+      - Implemented infrastructure monitoring and synthetic testing using Datadog
+      - Completed a cloud migration of 15 customers from an on-premises datacenter to Microsoft Azure
 
 - company:
     name: Mitel
@@ -79,23 +87,21 @@ experiences:
     start: May 2016
     end: Feb 2020
     responsibilities:
-    - Recognized as being in top 10% of employees in the Verification Engineering division
-    - "**R&D Lab Support Team Lead**"
-    - indent:
-      - Responsible for supporting all R&D labs at Mitel
-      - Supervising 2 team members providing feedback on performance and managing day-to-day tactical and long-term strategic activities of the team
-      - Administering R&D vmWare virtualization infrastructure with over 2500 VMs and 100 hosts globally across multiple datacenters
-      - Managing hardware, software, storage, and networking within multiple R&D datacenters globally
-      - Expanding virtualization infrastructure user growth by 185% and compute by 61% 
-      - Negotiated savings of $390,452 in hardware spending during the 2017 fiscal year
-      - Primary architect of R&D vmWare virtualization expansion in Bangalore, India
-      - Primary architect for project to redesign core networking for R&D in 2018
-      - Redesigned virtulization storage architecture to reduce costs by $61,563
-    - "**Contact Center Performance Team Lead**"
-    - indent:
-      - Supervising 4 team members providing feedback on performance and managing day-to-day tactical and long-term strategic activities of the team
-      - Directing release planning for 10 major/minor releases annually across multiple contact center products
-      - Led effort to expand configuration density in performance testing of all contact center products resulting in
-      - An increase of 18.57% of total devices used in contact center testing
-      - An increase of 200% of call recording ports used in call recording testing with another 100% increase planned
-      - Spearheaded efforts to combine performance and manual testing to improve test coverage
+      - Recognized among the top 10% of employees in the Verification Engineering division
+      - "**R&D Lab Support Team Lead**"
+      - indent:
+        - Led the support of all R&D labs at Mitel
+        - Supervised 2 team members, providing performance feedback and managing day-to-day tactical and long-term strategic activities
+        - Administered the R&D VMware virtualization infrastructure, encompassing over 2,500 VMs and 100 hosts across multiple global datacenters
+        - Managed hardware, software, storage, and networking infrastructure within multiple global R&D datacenters
+        - Expanded virtualization infrastructure, achieving a 185% growth in users and a 61% increase in compute capacity
+        - Negotiated savings of $390,452 in hardware spending during the 2017 fiscal year
+        - Served as the primary architect for the R&D VMware virtualization expansion in Bangalore, India
+        - Led as the primary architect for the 2018 project to redesign the core network for R&D
+        - Redesigned the virtualization storage architecture, resulting in a cost reduction of $61,563
+      - "**Contact Center Performance Team Lead**"
+      - indent:
+        - Supervised 4 team members, providing performance feedback and managing day-to-day tactical and long-term strategic activities
+        - Directed release planning for 10 major and minor releases annually across multiple contact center products
+        - Led the effort to expand configuration density in performance testing across all contact center products, resulting in an 18.57% increase in the total number of devices used
+        - Spearheaded efforts to integrate performance and manual testing, significantly improving overall test coverage

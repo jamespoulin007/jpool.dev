@@ -2,7 +2,7 @@
 section:
   name: Skills
   id: skills
-  enable: true
+  enable: false
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,9 +10,132 @@ section:
 
 
 # Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  # logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+- name: Azure
+  summary: "Experience with Microsoft Azure cloud platform, including resource deployment and management."
+  # logo: # Add logo path if available
+  url: "https://azure.microsoft.com/"
+- name: GCP (Google Cloud Platform)
+  summary: "Experience with Google Cloud Platform, including resource deployment and management."
+  # logo: # Add logo path if available
+  url: "https://cloud.google.com/"
+- name: Terraform
+  summary: "Proficient in using Terraform for Infrastructure as Code (IaC) to provision and manage cloud resources."
+  # logo: # Add logo path if available
+  url: "https://www.terraform.io/"
+- name: ARM Templates
+  summary: "Experienced in using Azure Resource Manager (ARM) Templates for defining and deploying Azure infrastructure."
+  # logo: # Add logo path if available
+  url: "https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/"
+- name: Ansible
+  summary: "Skilled in using Ansible for configuration management and automation of systems and applications."
+  # logo: # Add logo path if available
+  url: "https://www.ansible.com/"
+- name: Kubernetes (K8s)
+  summary: "Capable of deploying and managing containerized applications using Kubernetes."
+  # logo: # Add logo path if available
   url: "https://kubernetes.io/"
+- name: Azure Kubernetes Service (AKS)
+  summary: "Experienced in deploying and managing Kubernetes clusters on Microsoft Azure."
+  # logo: # Add logo path if available
+  url: "https://azure.microsoft.com/en-us/products/kubernetes-service/"
+- name: Google Kubernetes Engine (GKE)
+  summary: "Experienced in deploying and managing Kubernetes clusters on Google Cloud Platform."
+  # logo: # Add logo path if available
+  url: "https://cloud.google.com/kubernetes-engine/"
+- name: Helm
+  summary: "Proficient in using Helm as a package manager for Kubernetes."
+  # logo: # Add logo path if available
+  url: "https://helm.sh/"
+- name: ArgoCD
+  summary: "Experienced in using ArgoCD for GitOps-based continuous delivery for Kubernetes."
+  # logo: # Add logo path if available
+  url: "https://argo-cd.readthedocs.io/"
+- name: Nginx
+  summary: "Experienced in managing and configuring Nginx web server and reverse proxy."
+  # logo: # Add logo path if available
+  url: "https://www.nginx.com/"
+- name: Python
+  summary: "Skilled in Python for scripting and automation tasks."
+  # logo: # Add logo path if available
+  url: "https://www.python.org/"
+- name: Azure CLI
+  summary: "Proficient in using the Azure Command-Line Interface for managing Azure resources."
+  # logo: # Add logo path if available
+  url: "https://learn.microsoft.com/en-us/cli/azure/"
+- name: Google Cloud CLI
+  summary: "Proficient in using the Google Cloud Command-Line Interface for managing GCP resources."
+  # logo: # Add logo path if available
+  url: "https://cloud.google.com/sdk/docs/cli/"
+- name: Powershell
+  summary: "Skilled in using Powershell for scripting and automation, particularly within Microsoft environments."
+  # logo: # Add logo path if available
+  url: "https://learn.microsoft.com/en-us/powershell/"
+- name: Bash
+  summary: "Proficient in using Bash for command-line operations and scripting in Linux environments."
+  # logo: # Add logo path if available
+  url: "https://www.gnu.org/software/bash/"
+- name: SQL
+  summary: "Experienced in writing and managing SQL queries for database interactions."
+  # logo: # Add logo path if available
+  url: "https://en.wikipedia.org/wiki/SQL/"
+- name: Javascript
+  summary: "Familiar with Javascript for scripting and web-related tasks."
+  # logo: # Add logo path if available
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/"
+- name: Azure DevOps
+  summary: "Experienced in using Azure DevOps for CI/CD pipelines and project management."
+  # logo: # Add logo path if available
+  url: "https://azure.microsoft.com/en-us/products/devops/"
+- name: Github Actions
+  summary: "Experienced in using Github Actions for CI/CD workflows."
+  # logo: # Add logo path if available
+  url: "https://github.com/features/actions"
+- name: JFrog Platform
+  summary: "Experienced in managing and utilizing the JFrog Platform for artifact management."
+  # logo: # Add logo path if available
+  url: "https://jfrog.com/"
+- name: Datadog
+  summary: "Proficient in using Datadog for infrastructure and application monitoring and observability."
+  # logo: # Add logo path if available
+  url: "https://www.datadoghq.com/"
+- name: TLS/SSL Certificates
+  summary: "Knowledge of managing and deploying TLS/SSL certificates for secure communication."
+  # logo: # Add logo path if available
+  url: "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+- name: Azure Active Directory (Azure AD)
+  summary: "Experienced in managing Azure Active Directory for identity and access management."
+  # logo: # Add logo path if available
+  url: "https://azure.microsoft.com/en-us/products/active-directory/"
+- name: Azure AD Domain Services
+  summary: "Experienced in deploying and managing Azure AD Domain Services."
+  # logo: # Add logo path if available
+  url: "https://azure.microsoft.com/en-us/products/active-directory-domain-services/"
+- name: Role-Based Access Control (RBAC)
+  summary: "Proficient in implementing and managing Role-Based Access Control for resource access."
+  # logo: # Add logo path if available
+  url: "https://en.wikipedia.org/wiki/Role-based_access_control"
+- name: VMware
+  summary: "Experienced in managing VMware virtualization infrastructure."
+  # logo: # Add logo path if available
+  url: "https://www.vmware.com/"
+- name: Microsoft Server
+  summary: "Experienced in administering Microsoft Server operating systems."
+  # logo: # Add logo path if available
+  url: "https://www.microsoft.com/en-ca/windows-server/"
+- name: Microsoft Windows
+  summary: "Experienced in using and managing Microsoft Windows operating systems."
+  # logo: # Add logo path if available
+  url: "https://www.microsoft.com/en-ca/windows/"
+- name: VMware ESXi
+  summary: "Experienced in managing and administering VMware ESXi hypervisor."
+  # logo: # Add logo path if available
+  url: "https://www.vmware.com/products/esxi-and-esx.html"
+- name: Linux (RHEL)
+  summary: "Experienced in using and administering Red Hat Enterprise Linux."
+  # logo: # Add logo path if available
+  url: "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+- name: Linux (Debian)
+  summary: "Experienced in using and administering Debian-based Linux distributions."
+  # logo: # Add logo path if available
+  url: "https://www.debian.org/"
