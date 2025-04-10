@@ -1,9 +1,9 @@
 # some information about you
-name: "James Poulin"
-nickname: "James"
+name: James Poulin
+nickname: James
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I'm"
-image: "/images/JamesProfilePic.jpg"
+greeting: Hi, I'm
+image: images/JamesProfilePic.jpg
 # give your some contact information. they will be used in the footer
 contactInfo:
   github: jamespoulin007
