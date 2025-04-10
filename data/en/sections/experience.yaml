@@ -10,16 +10,16 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/experiences/company.png
-    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    name: Kinaxis
+    url: "https://www.kinaxis.com"
+    location: Ottawa
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Kinaxis builds industry leading supply chain management software.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Lead Cloud Platform Engineer
+    start: Sept 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -28,10 +28,74 @@ experiences:
     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
     - Lead backend team.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Staff Cloud Software Engineer
+    start: Dec 2022
+    end: Sept 2024
     responsibilities:
     - Implement and test xyz feature for abc tool.
     - Support client for abc tool.
     - Learn k,d,w technology for xyz.
+
+- company:
+    name: Alessa
+    url: "https://alessa.com/"
+    location: Ottawa
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Alessa builds AML compliance and fraud prevention SaaS solutions.
+  positions:
+  - designation: Cloud Operations Manager
+    start: Feb 2020
+    end: Dec 2022
+    responsibilities:
+    - Managed a team of 4 CloudOps engineers
+    - Implimented agile / scrum for CloudOps team
+    - Doubled deployment velocity from 5/mnth to 10/mnth from 2021 to 2022
+    - Designed hub & spoke cloud network architecture with 5 global hub regions and VPN connectivity
+    - Designed and maintain various deployment automation pipelines to deploy new customers into the cloud using ARM Templates and Azure CLI scripts
+    - Implimented automated process to deploy TLS certificates for end to end TLS encryption across all Azure deployments
+    - Implimented Ansible for configuration management of over 250 VMs
+    - Responsible for infrastructure support, maintenance, and deployment of over 3000 Azure resources
+    - Architected and designed Azure Kubernetes deployment to migrate monolithic services to new cloud native architecture
+    - Managed and report on cloud finance / Azure spend
+    - Managed and maintain Azure DevOps for all engineering teams
+    - Managed Azure AD tenant and RBAC for all Azure resources
+    - Completed migration of all users from premise based Microsoft Domain Controllers to Azure AD
+    - Implimented Azure AD Domain Services deployment
+    - Implimented infrastructure monitoring and synthetic testing in Datadog
+    - Completed a cloud migration of 15 customers hosted in a premise based datacenter to Microsoft Azure
+
+- company:
+    name: Mitel
+    url: "https://www.mitel.com/"
+    location: Ottawa
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Alessa builds AML compliance and fraud prevention SaaS solutions.
+  positions:
+  - designation: Lead Software QA Developer
+    start: May 2016
+    end: Feb 2020
+    responsibilities:
+    - Recognized as being in top 10% of employees in the Verification Engineering division
+    - "**R&D Lab Support Team Lead**"
+    - indent:
+      - Responsible for supporting all R&D labs at Mitel
+      - Supervising 2 team members providing feedback on performance and managing day-to-day tactical and long-term strategic activities of the team
+      - Administering R&D vmWare virtualization infrastructure with over 2500 VMs and 100 hosts globally across multiple datacenters
+      - Managing hardware, software, storage, and networking within multiple R&D datacenters globally
+      - Expanding virtualization infrastructure user growth by 185% and compute by 61% 
+      - Negotiated savings of $390,452 in hardware spending during the 2017 fiscal year
+      - Primary architect of R&D vmWare virtualization expansion in Bangalore, India
+      - Primary architect for project to redesign core networking for R&D in 2018
+      - Redesigned virtulization storage architecture to reduce costs by $61,563
+    - "**Contact Center Performance Team Lead**"
+    - indent:
+      - Supervising 4 team members providing feedback on performance and managing day-to-day tactical and long-term strategic activities of the team
+      - Directing release planning for 10 major/minor releases annually across multiple contact center products
+      - Led effort to expand configuration density in performance testing of all contact center products resulting in
+      - An increase of 18.57% of total devices used in contact center testing
+      - An increase of 200% of call recording ports used in call recording testing with another 100% increase planned
+      - Spearheaded efforts to combine performance and manual testing to improve test coverage
